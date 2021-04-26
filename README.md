@@ -1,2 +1,2 @@
 # ecommerce-api
-kaloraat's ecommer node app's API end points
+kaloraat's ecommerce node app's API end points
