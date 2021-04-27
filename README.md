@@ -67,5 +67,6 @@ Path Variables:
 Authorization:
 Bearer Token
 
-Note: userId path variable and userId of the bearer token must match. Here we are making the user admin (role equals 1).
+Note: userId path variable and userId of the bearer token must match.
+Here we are making the user admin (role equals 1).
 ```
