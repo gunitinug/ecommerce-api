@@ -247,3 +247,13 @@ Reqeust Body:
 }
 ```
 
+## list related Products
+
+This request returns Products belonging to same category as :productId but not itself.
+
+```
+GET {{your_ip}}/ecommerce/api/products/related/:productId
+
+Path Variables:
+:productId
+```
