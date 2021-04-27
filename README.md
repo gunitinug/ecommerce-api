@@ -134,3 +134,28 @@ Note: userId path variable and userId of the bearer token must match.
 ```
 GET {{your_ip}}/ecommerce/api/categories
 ```
+
+## create Product
+
+```
+POST {{your_ip}}/ecommerce/api/product/create/:userId
+
+Request Body (this time form-data)
+name,
+description,
+price,
+sold,
+category,
+shipping,
+photo,
+quantity
+
+Path Variables:
+:userId
+
+Authorization:
+Bearer Token
+
+Note: userId path variable and userId of the bearer token must match.
+Request body is passed from form elements in the front-end.
+```
