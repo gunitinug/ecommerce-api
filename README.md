@@ -185,3 +185,18 @@ Bearer Token
 Note: userId path variable and userId of the bearer token must match.
 Request body is passed from form elements in the front-end.
 ```
+
+## remove Product
+
+```
+DELETE {{your_ip}}/ecommerce/api/product/:productId/:userId
+
+Path Variables:
+:productId,
+:userId
+
+Authorization:
+Bearer Token
+
+Note: userId path variable and userId of the bearer token must match.
+```
