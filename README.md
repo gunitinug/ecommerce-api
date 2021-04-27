@@ -114,3 +114,23 @@ Bearer Token
 
 Note: userId path variable and userId of the bearer token must match.
 ```
+
+## delete Category
+
+```
+DELETE {{your_ip}}/ecommerce/api/category/:categoryId/:userId
+
+Path Variables:
+:categoryId,
+:userId
+
+Authorization:
+Bearer Token
+
+Note: userId path variable and userId of the bearer token must match.
+```
+## list all Categories
+
+```
+GET {{your_ip}}/ecommerce/api/categories
+```
