@@ -72,3 +72,19 @@ Bearer Token
 Note: userId path variable and userId of the bearer token must match.
 Here we are making the user admin (role equals 1).
 ```
+
+## create Category
+```
+POST {{your_ip}}/ecommerce/api/category/create/:userId
+
+Request Body:
+{
+    "name": "react"
+}
+
+Path Variables:
+:userId
+
+Authorization:
+Bearer Token
+```
