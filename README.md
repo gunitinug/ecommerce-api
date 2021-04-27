@@ -208,3 +208,14 @@ This request lists all categories that all products belong to (without duplicate
 ```
 GET {{your_ip}}/ecommerce/api/products/categories
 ```
+
+## list Products by query params
+
+```
+GET {{your_ip}}/ecommerce/api/products?sortBy=sold&limit=20&order=desc
+
+Query Params:
+sortBy: sold, createdAt, defaulted to _id,
+limit: number, defaulted to 6,
+order: asc, desc, defaulted to asc
+```
