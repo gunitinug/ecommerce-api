@@ -56,11 +56,16 @@ Note: userId path variable and userId of the bearer token must match.
 ```
 PUT {{your_ip}}/ecommerce/api/user/:userId
 
+Request Body:
+{
+    "role": 1
+}
+
 Path Variables:
 :userId
 
 Authorization:
 Bearer Token
 
-Note: userId path variable and userId of the bearer token must match.
+Note: userId path variable and userId of the bearer token must match. Here we are making the user admin (role equals 1).
 ```
