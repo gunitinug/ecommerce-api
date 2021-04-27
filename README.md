@@ -16,6 +16,8 @@ Request Body:
     "password": "m123456",
     "role": 1
 }
+
+Note: If successful token is generated. 
 ```
 
 ## sign in User
