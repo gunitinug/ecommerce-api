@@ -160,6 +160,15 @@ Note: userId path variable and userId of the bearer token must match.
 Request body is passed from form elements in the front-end.
 ```
 
+## read Product
+
+```
+GET {{your_ip}}/ecommerce/api/product/:productId
+
+Path Variables:
+:productId
+```
+
 ## update Product
 
 ```
