@@ -159,3 +159,29 @@ Bearer Token
 Note: userId path variable and userId of the bearer token must match.
 Request body is passed from form elements in the front-end.
 ```
+
+## update Product
+
+```
+PUT {{your_ip}}/ecommerce/api/product/:productId/:userId
+
+Request Body (form-data)
+name,
+description,
+price,
+sold,
+category,
+shipping,
+photo,
+quantity
+
+Path Variables:
+:productId
+:userId
+
+Authorization:
+Bearer Token
+
+Note: userId path variable and userId of the bearer token must match.
+Request body is passed from form elements in the front-end.
+```
