@@ -231,7 +231,7 @@ order: asc, desc, defaulted to asc
 
 ## list Products by Categories and price range from front-end
 
-This request gets Categories and price range from front end form controls and search the Products based on these.
+This request gets Categories and price range from front-end form controls and search the Products based on these.
 
 ```
 POST {{your_ip}}/ecommerce/api/products/by/search
