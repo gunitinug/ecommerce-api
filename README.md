@@ -43,7 +43,21 @@ GET {{your_ip}}/ecommerce/api/signout
 GET {{your_ip}}/ecommerce/api/user/:userId
 
 Path Variables:
-userId
+:userId
+
+Authorization:
+Bearer Token
+
+Note: userId path variable and userId of the bearer token must match.
+```
+
+## update User information
+
+```
+PUT {{your_ip}}/ecommerce/api/user/:userId
+
+Path Variables:
+:userId
 
 Authorization:
 Bearer Token
