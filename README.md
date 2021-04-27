@@ -18,7 +18,7 @@ Request Body:
 }
 ```
 
-### sign in User
+## sign in User
 
 ```
 POST {{your_ip}}/ecommerce/api/signin
@@ -28,4 +28,23 @@ Request Body:
   "email": "michael@ms.com",
   "password": "m123456"
 }
+```
+## sign out User
+
+```
+GET {{your_ip}}/ecommerce/api/signout
+```
+
+## get User information
+
+```
+GET {{your_ip}}/ecommerce/api/user/:userId
+
+Path Variables:
+userId
+
+Authorization:
+Bearer Token
+
+Note: userId path variable and userId of the bearer token must match.
 ```
