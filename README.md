@@ -13,9 +13,11 @@ Request Body:
 {
     "name": "michael",
     "email": "michael@ms.com",
-    "password": "m123456",
-    "role": 1
+    "password": "m123456",    
 }
+
+Note: role is 0 by default. This means regular non-admin user.
+role is not required when signing up User.
 ```
 
 ## sign in User
