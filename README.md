@@ -200,3 +200,11 @@ Bearer Token
 
 Note: userId path variable and userId of the bearer token must match.
 ```
+
+## list Product Categories
+
+This request lists all categories that all products belong to (without duplicates). Categories that no products belong to are excluded.
+
+```
+GET {{your_ip}}/ecommerce/api/products/categories
+```
