@@ -88,3 +88,12 @@ Path Variables:
 Authorization:
 Bearer Token
 ```
+
+## get Category information
+
+```
+GET {{your_ip}}/ecommerce/api/category/:categoryId
+
+Path Variables:
+:categoryId
+```
