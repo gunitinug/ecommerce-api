@@ -228,3 +228,22 @@ sortBy: sold, createdAt, defaulted to _id,
 limit: number, defaulted to 6,
 order: asc, desc, defaulted to asc
 ```
+
+## list Products by Categories and price range from front-end
+
+This request gets Categories and price range from front end form controls and search the Products based on these.
+
+```
+POST {{your_ip}}/ecommerce/api/products/by/search
+
+Reqeust Body:
+{
+    "limit": 20,
+    "skip": 0,
+    "filters": {
+        "price": [20,25],
+        "category": ["60876e770710efffd5c7e271", "60876e910710efffd5c7e273"]
+    }
+}
+```
+
