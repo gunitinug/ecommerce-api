@@ -87,6 +87,8 @@ Path Variables:
 
 Authorization:
 Bearer Token
+
+Note: userId path variable and userId of the bearer token must match.
 ```
 
 ## get Category information
@@ -96,4 +98,19 @@ GET {{your_ip}}/ecommerce/api/category/:categoryId
 
 Path Variables:
 :categoryId
+```
+
+## update Cateory
+
+```
+PUT {{your_ip}}/ecommerce/api/category/:categoryId/:userId
+
+Path Variables:
+:categoryId,
+:userId
+
+Authorization:
+Bearer Token
+
+Note: userId path variable and userId of the bearer token must match.
 ```
