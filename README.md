@@ -140,7 +140,7 @@ GET {{your_ip}}/ecommerce/api/categories
 ```
 POST {{your_ip}}/ecommerce/api/product/create/:userId
 
-Request Body (this time form-data)
+Request Body (form-data)
 name,
 description,
 price,
