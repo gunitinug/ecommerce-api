@@ -3,6 +3,7 @@ kaloraat's ecommerce node app's API end points
 
 ## Demo
 - [Setting up reverse proxy](https://www.youtube.com/watch?v=MEnyPUpoe5E)
+- [Testing all API end points](https://www.youtube.com/watch?v=IwtFs_WYFvs)
 
 ## sign up User
 
